@@ -1,46 +1,55 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Ping Pong</title>
-    <link rel="stylesheet" href="css/css/bootstrap.css">
-    <link rel="stylesheet" href="css/styles.css">
-  </head>
-  <body>
-    <header>
-        <div class="jumbotron">
-          <h1>Ping Pong</h1>
-        </div>
-    </header>
-    <div class="float-left-area">
-      <div class="inner-left">
-        <h3 ><strong>About Ping Pong </strong></h3>
-        <h4 style="color:#FFD7A2">Created by:</h4>
-          Kirima Murungi
-        <h4 style="color:#FFD7A2">Github Username/URL:</h4>
-          https://github.com/murungiKirima
-        <h4 style="color:#FFD7A2">Level 2 test for</h4>
-          java
+
+<head>
+  <meta charset="utf-8">
+  <title>Ping Pong</title>
+  <link rel="stylesheet" href="css/css/bootstrap.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <header>
+    <div class="jumbotron">
+      <h1>Ping Pong</h1>
+    </div>
+  </header>
+  <div class="float-left-area">
+    <div class="inner-left">
+      <h3><strong>About Ping Pong </strong></h3>
+      <h4 style="color:#FFD7A2">Created by:</h4> Kirima Murungi
+      <h4 style="color:#FFD7A2">Github Username/URL:</h4> https://github.com/murungiKirima
+      <h4 style="color:#FFD7A2">Level 2 test for</h4> java
+    </div>
+  </div>
+
+  <div class="float-right-area">
+    <div class="inner-right">
+      <h3><strong>Let's play</strong></h3>
+      <h4><strong>Rules:</strong></h4>
+      <p>Ping pong will count upto your number from 1 with the following exceptions;</p>
+      <ol>
+        <li>Numbers divisible by 3 become "ping"</li>
+        <li>Numbers divisible by 5 become "pong"</li>
+        <li>Numbers divisible by 3 and 5 become "pingpong"</li>
+      </ol>
+      <form id="inputForm">
+        <strong>Enter your number here:</strong>
+        <input type="text" id="unumber" name="" value="">
+        <button type="submit">Ping Pong!</button>
+      </form>
+      <div class="output">
+        <ul>
+
+        </ul>
       </div>
     </div>
-
-    <div class="float-right-area">
-      <div class="inner-right">
-        <h3><strong>Let's play</strong></h3>
-        <h4><strong>Rules:</strong></h4>
-        <p>Ping pong will count upto your number from 1 with the following exceptions;</p>
-        <ol>
-          <li>Numbers divisible by 3 become "ping"</li>
-          <li>Numbers divisible by 5 become "pong"</li>
-          <li>Numbers divisible by 3 and 5 become "pingpong"</li>
-        </ol>
-        <form><strong>Enter your number here:</strong><input type="text" value=""><button type="button">Ping Pong!</button></form>
-      </div>
-    </div>
-
-    <div class="clear-floated"></div>
+  </div>
 
 
 
-  </body>
+</body>
+<script src="js/jquery-3.2.1.js" charset="utf-8"></script>
+<script src="js/scripts.js" charset="utf-8"></script>
+
 </html>
