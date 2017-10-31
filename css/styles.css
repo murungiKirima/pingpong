@@ -2,20 +2,18 @@ body {
   background-color: #DAD9D7;
 }
 
+/*header*/
+
 .jumbotron {
   text-align: center;
   height: 10%;
   background-color: #FFD7A2;
 }
 
+/*end of header*/
+
 .float-left-area {
   width: 30%;
-  float: left;
-  padding: 10px;
-}
-
-.float-right-area {
-  width: 70%;
   float: left;
   padding: 10px;
 }
@@ -26,6 +24,12 @@ body {
   min-height: 60px;
   background-color: green;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.float-right-area {
+  width: 70%;
+  float: left;
+  padding: 10px;
 }
 
 .inner-right {
